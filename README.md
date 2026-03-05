@@ -1,116 +1,188 @@
-# 🚀 Data Structures & Algorithms Journey
+# 🚀 My Data Structures & Algorithms Journey
 
-Welcome to my **Data Structures & Algorithms (DSA)** journey 👋  
-This repository is a structured log of my progress in building **strong problem-solving skills** for **technical interviews and internships**.
+![DSA](https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-Learning-blue)
+![Language](https://img.shields.io/badge/Language-Python-yellow)
+![Problems](https://img.shields.io/badge/Problems-Solving-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Rather than chasing problem counts, the focus here is on:
-- recognizing patterns,
-- writing clean and optimized code,
-- and explaining solutions clearly.
+Welcome to my **Data Structures & Algorithms (DSA) journey**.  
+This repository documents my progress as I learn, practice, and master core algorithmic concepts.
 
----
+The goal of this repo is not just solving problems, but developing:
 
-## 🎯 Why This Repository?
-
-✔ To build solid DSA fundamentals  
-✔ To practice interview-relevant problem patterns  
-✔ To track consistent progress publicly  
-✔ To create verifiable proof of problem-solving skills  
+- 🧠 Strong **problem-solving skills**
+- ⚡ Efficient **algorithmic thinking**
+- 📚 Deep understanding of **data structures**
+- 🎯 Preparation for **technical interviews**
 
 ---
 
-## 🧠 What You’ll Find Here
+# 📚 Learning Approach
 
-- 📌 Topic-wise DSA problems  
-- ✨ Clean and optimized solutions  
-- 🧩 Clear approach / intuition for each problem  
-- ⏱️ Time & space complexity analysis  
-- ⚠️ Important edge cases  
+My learning path follows a structured hierarchy:
+
+```
+Time Complexity → Data Structures → Algorithms → Problem Solving Techniques
+```
+
+Understanding **why and when** to apply an approach is just as important as writing the code.
 
 ---
 
-## 🗂️ Repository Structure
+# 🗂 Repository Structure
 
-DSA-Journey/
+```
+DSA-Journey
 │
-├── Arrays/
-├── Strings/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── Hashing/
-├── Trees/
-├── Graphs/
-├── DynamicProgramming/
+├── Time_Complexity
+│   └── Big-O analysis and complexity notes
+│
+├── 1_Data_Structures
+│   ├── Arrays
+│   ├── Strings
+│   ├── Linked_List
+│   ├── Stack
+│   ├── Queue
+│   ├── Trees
+│   └── Graphs
+│
+├── 2_Algorithms
+│   ├── Sorting
+│   ├── Searching
+│   ├── Recursion
+│   └── Divide_and_Conquer
+│
+├── 3_Problem Solving Techniques
+│   ├── Two Pointers
+│   ├── Sliding Window
+│   ├── Greedy Algorithm
+│   ├── Backtracking
+│   └── Dynamic Programming
 │
 └── README.md
 
+```
+---
 
-Each folder focuses on **one core DSA topic** and contains:
-- problem solutions  
-- short notes & patterns  
+# 🧠 Topics Covered
+
+## ⏱ Time Complexity
+- Big O Notation
+- Big Omega
+- Big Theta
+- Complexity comparison
+
+## 🧱 Data Structures
+- Arrays
+- Strings
+- Linked Lists
+- Stack
+- Queue
+- Trees
+- Graphs
+- Hash Tables
+
+## ⚙️ Algorithms
+- Sorting Algorithms
+- Searching Algorithms
+- Recursion
+- Divide and Conquer
+
+## 🧩 Problem Solving Techniques
+- Two Pointers
+- Sliding Window
+- Greedy Algorithms
+- Backtracking
+- Dynamic Programming
 
 ---
 
-## ✍️ How Each Problem Is Solved
+# 📈 Learning Progress
 
-Every solution follows a consistent format:
+| Category | Status |
+|--------|--------|
+| Time Complexity | 🟡 In Progress |
+| Arrays | 🟡 In Progress |
+| Strings | 🔲 Planned |
+| Linked List | 🔲 Planned |
+| Stack & Queue | 🔲 Planned |
+| Trees | 🔲 Planned |
+| Graphs | 🔲 Planned |
+| Dynamic Programming | 🔲 Planned |
 
-1. **Problem Statement**  
-2. **Approach / Intuition**  
-3. **Algorithm**  
-4. **Time Complexity**  
-5. **Space Complexity**  
-6. **Edge Cases**
-
-This structure helps in **fast revision** and **clear interview explanation**.
-
----
-
-## 🛠️ Tech Stack
-
-- **Languages:** Java / Python  
-- **Practice Platform:** LeetCode  
-- **Version Control:** Git & GitHub  
+Legend:
+- 🟢 Completed  
+- 🟡 In Progress  
+- 🔲 Planned  
 
 ---
 
-## 📈 Progress Snapshot
+# 🧩 Problem Format
 
-- 🔹 Topics Covered: Arrays, Strings, Linked Lists, Trees, Graphs, DP  
-- 🔹 Focus: Consistency, clarity, optimization  
-- 🔹 Status: Actively updating 🚧  
+Each solution includes:
 
-_(Progress is updated regularly.)_
+```
+Problem Description
+Approach / Intuition
+Time Complexity
+Space Complexity
+Clean Implementation
+```
+
+Example:
+
+```python
+# Problem: Two Sum
+# Pattern: Hashing
+# Data Structure: Array + HashMap
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
+def twoSum(nums, target):
+    hashmap = {}
+
+    for i, num in enumerate(nums):
+        diff = target - num
+
+        if diff in hashmap:
+            return [hashmap[diff], i]
+
+        hashmap[num] = i
+```
 
 ---
 
-## 📚 Learning Philosophy
+# 🎯 Goals
 
-> Solve less. Understand more.
-
-- Think in **patterns**, not memorized solutions  
-- Optimize only after correctness  
-- Explain solutions out loud  
-- Consistency > speed  
+✔ Build strong **algorithmic intuition**  
+✔ Recognize **problem solving patterns**  
+✔ Write **efficient and clean code**  
+✔ Prepare for **coding interviews**
 
 ---
 
-## 🎯 End Goal
+# 📌 Why This Repository Exists
 
-To become **internship-ready** with the ability to:
-- confidently solve unseen problems,  
-- write efficient and readable code,  
-- and clearly communicate logic during interviews.
+Most repositories only contain problem solutions.
 
----
+This repository focuses on:
 
-## 🤝 Contributions & Feedback
-
-This is a personal learning repository,  
-but suggestions, better approaches, and optimizations are always welcome!
+- **Conceptual understanding**
+- **Pattern recognition**
+- **Complexity analysis**
+- **Structured learning**
 
 ---
 
-⭐ *If you find this repository helpful, feel free to star it.*  
-*Consistency beats intensity. Depth beats noise.*
+# ⭐ If You Find This Repo Helpful
+
+Consider giving it a ⭐ to support the journey.
+
+---
+
+# 📬 Connect With Me
+
+Feel free to connect if you're also learning DSA and building your problem-solving skills.
+
+Let's grow together 🚀
