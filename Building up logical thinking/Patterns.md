@@ -24,3 +24,7 @@
 ![alt text](image-10.png)
 # Pattern 12
 ![alt text](image-11.png)
+# Pattern 13
+![alt text](image-12.png)
+# Pattern 14
+![alt text](image-13.png)
