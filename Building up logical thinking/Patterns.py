@@ -1,7 +1,26 @@
-# 1st Pattern
+
+# Pattern 1
 for i in range(5):
     for j in range(5):
         print("*",end="")
+    print()
+
+# Pattern 2
+for i in range(5):
+    for j in range(i+1):
+        print("*",end="")
+    print()
+
+#Pattern 3
+for i in range(5):
+    for j in range(i+1):
+        print(j+1,end="")
+    print()
+
+#Pattern 4
+for i in range(5):
+    for j in range(i+1):
+        print(i+1,end="")
     print()
 
 #Pattern 11
@@ -42,4 +61,12 @@ for i in range(5):
     for j in range(i+1):
         print(a,end=" ")
         a=a+1
+    print()
+
+#Pattern 14
+for i in range(1,6):
+    a=ord('A')
+    for j in range(i):
+        print(chr(a),end="")
+        a+=1
     print()
